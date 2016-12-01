@@ -83,7 +83,18 @@ elliptic@^6.2.3:
     hash.js "^1.0.0"
     inherits "^2.0.1"
 
-ethereumjs-util:
+ethereum-common@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/ethereum-common/-/ethereum-common-0.0.17.tgz#0b554ca9d512cadc8be0456fbd000ffcc3ac4f6f"
+
+ethereumjs-tx:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/ethereumjs-tx/-/ethereumjs-tx-1.1.4.tgz#05684396a5fb7df0337f2e5a508977aa3aa9f54f"
+  dependencies:
+    ethereum-common "^0.0.17"
+    ethereumjs-util "^5.0.0"
+
+ethereumjs-util, ethereumjs-util@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/ethereumjs-util/-/ethereumjs-util-5.0.1.tgz#7d5f1182febd83c1bbb1305b65ac0a5df3c6a43e"
   dependencies:

@@ -12,6 +12,7 @@
     "web3": "^0.17.0-beta"
   },
   "dependencies": {
+    "ethereumjs-tx": "^1.1.4",
     "ethereumjs-util": "^5.0.1"
   }
 }
