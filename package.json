@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "web3": "^0.17.0-beta"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^5.0.1"
   }
 }
